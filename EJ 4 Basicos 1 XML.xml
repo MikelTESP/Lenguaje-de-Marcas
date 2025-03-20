@@ -1,0 +1,32 @@
+<!--
+Nombre: [Mikel Torremocha]
+Curso: [DAM1]
+Fecha: [18/3/2025]
+Ejercicio: [Ejercicio 4]
+-->
+
+
+
+<Empleados>
+    <Empleado1>
+        <Nombre>Ana</Nombre>
+        <Apellido>García</Apellido>
+        <Edad>30</Edad>
+        <Departamento>Ventas</Departamento>
+        <Cargo>Ejecutivo de ventas</Cargo>
+    </Empleado1>
+    <Empleado2>
+        <Nombre>Luis</Nombre>
+        <Apellido>Rodríguez</Apellido>
+        <Edad>45</Edad>
+        <Departamento>Fianzas</Departamento>
+        <Cargo>Analista financiero</Cargo>
+    </Empleado2>
+    <Empleado3>
+        <Nombre>María</Nombre>
+        <Apellido>López</Apellido>
+        <Edad>28</Edad>
+        <Departamento>Marketing</Departamento>
+        <Cargo>Especialista en redes sociales</Cargo>
+    </Empleado3>
+</Empleados>

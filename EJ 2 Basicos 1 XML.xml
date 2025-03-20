@@ -1,0 +1,23 @@
+<Hechos_Historicos>
+    <hecho1 Descripción_de_cada_hecho="IBM da a comocer el PC">
+        <Fecha>
+            <Dia>12</Dia>
+            <Mes>9</Mes>
+            <Año>1981</Año>
+        </Fecha>
+    </hecho1>
+    <Hecho2 Descripción_de_cada_hecho="Se funda Google">
+        <Fecha>
+            <Dia>4</Dia>
+            <Mes>9</Mes>
+            <Año>1998</Año>
+        </Fecha>
+    </Hecho2>
+    <Hecho3 Descripción_de_cada_hecho="Se funda Facebook">
+        <Fecha>
+            <Dia>4</Dia>
+            <Mes>2</Mes>
+            <Año>2004</Año>
+        </Fecha>
+    </Hecho3>
+</Hechos_Historicos>

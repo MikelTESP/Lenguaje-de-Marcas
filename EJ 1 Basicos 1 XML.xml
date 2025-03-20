@@ -1,0 +1,14 @@
+<ciudades>
+    <ciudad1 continente="Asia">
+        <Nombre>Nueva Delhi</Nombre>
+        <Pais>India</Pais>
+    </ciudad1>
+    <ciudad2 continente="Europa">
+        <Nombre>Lisboa</Nombre>
+        <Pais>Portugal</Pais>
+    </ciudad2>
+    <ciudad3 continente="Africa">
+        <Nombre>El Cairo</Nombre>
+        <Pais>Egipto</Pais>
+    </ciudad3>
+</ciudades>

@@ -1,0 +1,6 @@
+<Libros>
+    <Libro1 titulo="Harry Potter" autor="J.K.Rowling" Año_publicacion="1997"/>
+    <Libro2 titulo="El Principito" autor="Antoine De Saint Exupéry" Año_publicacion="1943"/>
+    <Libro3 titulo="Veinte mil leguas de viaje submarino" autor="Julio Verne" Año_publicacion="1870"/>
+    <Libro4 titulo="El Señor de los Anillos" autor="J.R.R. Tolkien" Año_publicacion="1954"/>
+</Libros>
