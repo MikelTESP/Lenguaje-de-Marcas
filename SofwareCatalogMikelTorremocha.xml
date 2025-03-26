@@ -1,0 +1,50 @@
+<!--
+Nombre: [Mikel Torremocha Cantera]
+Curso: [DAM 1]
+Fecha: [26/03/2025]
+Ejercicio: [Ejercicio 1]
+-->
+
+
+
+<catalogo xmlns:os="http://example.com/os" xmlns:office="http://example.com/office">
+    <!-- Software de Sistemas Operativos -->
+
+    <os:software>
+        <os:nombre>Windows 11</os:nombre>
+        <os:version>22H2</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+    </os:software>
+    
+    <os:software>
+        <os:nombre>Ubuntu</os:nombre>
+        <os:version>24.04</os:version>
+        <os:desarrollador>Canonical</os:desarrollador>
+    </os:software>
+    
+    <os:software>
+        <os:nombre>macOS Sonoma</os:nombre>
+        <os:version>14.3</os:version>
+        <os:desarrollador>Apple</os:desarrollador>
+    </os:software>
+    
+    <!-- Software de Aplicaciones de Oficina -->
+
+    <office:software>
+        <office:nombre>Microsoft Word</office:nombre>
+        <office:version>2024</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+    </office:software>
+    
+    <office:software>
+        <office:nombre>LibreOffice Writer</office:nombre>
+        <office:version>7.6</office:version>
+        <office:desarrollador>The Document Foundation</office:desarrollador>
+    </office:software>
+    
+    <office:software>
+        <office:nombre>Google Docs</office:nombre>
+        <office:version>N/A</office:version>
+        <office:desarrollador>Google</office:desarrollador>
+    </office:software>
+</catalogo>
