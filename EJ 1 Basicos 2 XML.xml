@@ -1,0 +1,22 @@
+<!--
+Nombre: [Mikel Torremocha]
+Curso: [DAM1]
+Fecha: [21/3/2025]
+Ejercicio: [Ejercicio 1]
+-->
+
+
+<Paginas-web>
+    <Pagina-web1 xmlns:e1="https://www.w3schools.com/">
+        <e1:Nombre>W3Schools</e1:Nombre>
+        <e1:Descripcion>Tutoriales de informática</e1:Descripcion>
+    </Pagina-web1>
+    <Pagina-web2 xmlns:e2="http://www.wikipedia.org/">
+        <e2:Nombre>Wikipedia</e2:Nombre>
+        <e2:Descripcion>La enciclopedia libre</e2:Descripcion>
+    </Pagina-web2>
+    <Pagina-web3 xmlns:e3="http://wwww3:org/">
+        <e3:Nombre>W3C</e3:Nombre>
+        <e3:Descripcion>World Wide Web Consortium</e3:Descripcion>
+    </Pagina-web3>
+</Paginas-web>

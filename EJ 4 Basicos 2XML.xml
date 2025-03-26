@@ -1,0 +1,45 @@
+<!--
+Nombre: [Mikel Torremocha]
+Curso: [DAM1]
+Fecha: [21/3/2025]
+Ejercicio: [Ejercicio 4]
+-->
+
+
+<módulo>
+    <nombre_módulo>Lenguajes de Marcas</nombre_módulo>
+    <horas_semanales>4</horas_semanales>
+    <carácter>Obligatorio</carácter>
+    <fecha_inicio_curso>2023-09-15</fecha_inicio_curso>
+    <fecha_fin_curso>2024-06-22</fecha_fin_curso>
+    <alumnos>
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <DNI>51623487V</DNI>
+            <nº_telefono>666544566</nº_telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia></faltas_asistencia>
+            <notas></notas>
+        </alumno>
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <DNI>52369874B</DNI>
+            <nº_telefono>666455477</nº_telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia>
+            <notas>apto</notas>
+        </alumno>
+    </alumnos>
+</módulo>

@@ -1,0 +1,44 @@
+<!--
+Nombre: [Mikel Torremocha]
+Curso: [DAM1]
+Fecha: [21/3/2025]
+Ejercicio: [Ejercicio 2]
+-->
+
+
+<Equipos>
+    <Equipo1>
+        <Nombre>Manchester City</Nombre>
+        <Ciudad>Manchester, Inglaterra</Ciudad>
+        <Entrenador/>
+        <Jugadores>
+            <Jugador1>
+                <Nombre>Erling Haaland</Nombre>
+                <Posicion>Delantero</Posicion>
+                <Nacionalidad>Noruego</Nacionalidad>
+            </Jugador1>
+            <Jugador2>
+                <Nombre>Kevin De Bruyne</Nombre>
+                <Posicion>Centrocampista</Posicion>
+                <Nacionalidad>Belga</Nacionalidad>
+            </Jugador2>
+        </Jugadores>
+    </Equipo1>
+    <Equipo2>
+        <Nombre>FC Barcelona</Nombre>
+        <Ciudad>Barcelona, España</Ciudad>
+        <Entrenador/>
+            <Jugadores>
+                <Jugador1>
+                    <Nombre>Robert Lewandowski</Nombre>
+                    <Posicion>Delantero</Posicion>
+                    <Nacionalidad>Polaco</Nacionalidad>
+                </Jugador1>
+                <Jugador2>
+                    <Nombre>Pedri</Nombre>
+                    <Posicion>Centrocampista</Posicion>
+                    <Nacionalidad>Español</Nacionalidad>
+                </Jugador2>
+            </Jugadores>
+    </Equipo2>
+</Equipos>    
