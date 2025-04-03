@@ -1,0 +1,35 @@
+<!-- 
+Nombre: [MikelTorremocha] 
+Curso: [DAM 1] 
+Fecha: [2/4/2025] 
+Ejercicio: [2] 
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EquiposNBA [
+    <!ELEMENT EquiposNBA (equipo|nombre)+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT equipo (nombre, titulos, posicion, quinteto)>
+    <!ATTLIST equipo conferencia CDATA #REQUIRED>
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>
+
+<EquiposNBA>
+    <equipo conferencia="Este">
+        <nombre>Boston Celtics</nombre>
+        <titulos>17</titulos>
+        <posicion>1</posicion>
+        <quinteto>Jayson Tatum, Jaylen Brown, Kristaps Porzingis, Jrue Holiday, Al Horford</quinteto>
+    </equipo>
+    
+    <equipo conferencia="Oeste">
+        <nombre>Los Angeles Lakers</nombre>
+        <titulos>17</titulos>
+        <posicion>7</posicion>
+        <quinteto>LeBron James, Anthony Davis, D'Angelo Russell, Austin Reaves, Rui Hachimura</quinteto>
+    </equipo>
+</EquiposNBA>

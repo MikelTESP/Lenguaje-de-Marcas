@@ -1,0 +1,63 @@
+<!-- 
+Nombre: [MikelTorremocha] 
+Curso: [DAM 1] 
+Fecha: [2/4/2025] 
+Ejercicio: [1] 
+-->
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+    <!ATTLIST factura numero CDATA #REQUIRED fecha CDATA #REQUIRED>
+    
+    <!ELEMENT datos-emisor (nombre, cif, telefono)>
+    <!ELEMENT datos-cliente (nombre, cif, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    
+    <!ELEMENT detalle-factura (linea+)>
+    <!ATTLIST detalle-factura importe CDATA #REQUIRED>
+    
+    <!ELEMENT linea (descripcion, cantidad, pvp, oferta?)>
+    <!ATTLIST linea codigo-articulo ID #REQUIRED tipo (Libro | DVD | Varios) #REQUIRED>
+    
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT pvp (#PCDATA)>
+    <!ELEMENT oferta EMPTY>
+]>
+
+<factura numero="12345" fecha="2025-04-03">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>A12345678</cif>
+        <telefono>123456789</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>B87654321</cif>
+        <telefono>987654321</telefono>
+    </datos-cliente>
+    <detalle-factura importe="150.00">
+        <linea codigo-articulo="A001" tipo="Libro">
+            <descripcion>Don Quijote de la Mancha</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>25.00</pvp>
+            <oferta/>
+        </linea>
+        <linea codigo-articulo="A002" tipo="DVD">
+            <descripcion>Documental Historia de España</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>30.00</pvp>
+        </linea>
+        <linea codigo-articulo="A003" tipo="Varios">
+            <descripcion>Marcadores fluorescentes</descripcion>
+            <cantidad>5</cantidad>
+            <pvp>5.00</pvp>
+        </linea>
+    </detalle-factura>
+</factura>

@@ -1,0 +1,31 @@
+<!-- 
+Nombre: [MikelTorremocha] 
+Curso: [DAM 1] 
+Fecha: [2/4/2025] 
+Ejercicio: [3] 
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE panel SYSTEM "Panel.dtd">
+<panel fecha="2025-04-03">
+    <aeropuerto>Nombre del Aeropuerto</aeropuerto>
+    <vuelos>
+        <vuelo codigo="AA123" estado="E">
+            <origen>Madrid</origen>
+            <destino>Barcelona</destino>
+            <hora_salida>14:30</hora_salida>
+            <hora_llegada>15:45</hora_llegada>
+            <compania>Iberia</compania>
+            <diario/>
+        </vuelo>
+        <vuelo codigo="BB456" estado="R">
+            <origen>París</origen>
+            <destino>Lisboa</destino>
+            <hora_salida>16:00</hora_salida>
+            <hora_llegada>18:10</hora_llegada>
+            <compania>Air France</compania>
+        </vuelo>
+    </vuelos>
+</panel>
