@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuentos SYSTEM "cuentos.dtd">
+
+<!-- 
+Nombre: [Mikel Torremocha] 
+Curso: [DAM 1] 
+Fecha: [3/4/2025] 
+Ejercicio: [1.2] 
+-->
+
+<!-- Segundo cuento -->
+<cuento cod="B02" titulo="El Espejo Maldito" genero="terror">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Carlos</nombre>
+            <genero>M</genero>
+            <descripcion>Un joven curioso que encuentra un espejo maldito.</descripcion>
+            <imagen>https://imagenes-cuentos.com/carlos.png</imagen>
+        </personaje>
+        <personaje id="p2" tipo="secundario">
+            <nombre>Señor Ortega</nombre>
+            <genero>M</genero>
+            <descripcion>Dueño de la antigua mansión.</descripcion>
+            <descripcion_fisica>Anciano de barba blanca</descripcion_fisica>
+        </personaje>
+    </personajes>
+    <trama>Carlos descubre un espejo maldito que encierra espíritus atrapados.</trama>
+    <etiqueta nombre="misterio"/>
+    <precio>09.99</precio>
+</cuento>

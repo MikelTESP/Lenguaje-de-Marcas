@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuentos SYSTEM "cuentos.dtd">
+
+<!-- 
+Nombre: [Mikel Torremocha] 
+Curso: [DAM 1] 
+Fecha: [3/4/2025] 
+Ejercicio: [1.1] 
+-->
+
+
+<!-- Primer cuento -->
+<cuento cod="A01" titulo="El Bosque Encantado" genero="fantasía">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Alicia</nombre>
+            <genero>F</genero>
+            <descripcion>Una niña curiosa y valiente.</descripcion>
+            <descripcion_fisica>Cabello rubio, ojos verdes</descripcion_fisica>
+        </personaje>
+        <personaje id="p2" tipo="antagonista">
+            <nombre>Bruja Morgana</nombre>
+            <genero>F</genero>
+            <descripcion>Vieja hechicera del bosque.</descripcion>
+            <url>https://imagenes-cuentos.com/morgana.jpg</url>
+        </personaje>
+    </personajes>
+    <trama>Alicia se aventura en un bosque encantado donde enfrenta a la Bruja Morgana.</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="magia"/>
+    <precio moneda="usd">12.99</precio>
+</cuento>

@@ -1,0 +1,39 @@
+<!-- 
+Nombre: [Mikel Torremocha] 
+Curso: [DAM 1] 
+Fecha: [3/4/2025] 
+Ejercicio: [1] 
+-->
+
+
+<!-- Documento DTD -->
+<!DOCTYPE cuentos [
+    <!ELEMENT cuento (personajes, trama, etiqueta*, precio?)>
+    <!ATTLIST cuento cod CDATA #REQUIRED
+                     titulo CDATA #REQUIRED
+                     genero (infantil|fantasía|terror) #IMPLIED>
+    
+    <!ELEMENT personajes (personaje+)>
+    <!ELEMENT personaje (nombre, genero, descripcion?, (descripcion_fisica | imagen | url)?)>
+    <!ATTLIST personaje id ID #REQUIRED
+                     tipo (principal|secundario|antagonista) "principal">
+    
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT descripcion_fisica (#PCDATA)>
+    <!ELEMENT imagen (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+    
+    <!ELEMENT trama (#PCDATA)>
+    <!ELEMENT etiqueta EMPTY>
+    <!ATTLIST etiqueta nombre CDATA #REQUIRED>
+    
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio moneda CDATA "eur">
+]>
+
+<!-- Restricciones que no se pueden plasmar en el DTD -->
+<!-- 1. El formato del atributo 'cod' (una letra y dos números) -->
+<!-- 2. El valor único del atributo 'id' entre todos los personajes -->
+<!-- 3. La validación del formato numérico de 'precio' (dos dígitos y dos decimales) -->
