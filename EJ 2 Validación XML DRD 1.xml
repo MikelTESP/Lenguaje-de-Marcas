@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LigaBaloncesto SYSTEM "ligaBaloncesto.dtd">
+<LigaBaloncesto>
+    <Jugador>
+        <Apellidos>Jordan</Apellidos>
+        <Equipo>
+            <Nombre>Bulls</Nombre>
+            <Ciudad>Chicago</Ciudad>
+            <Presidente>
+                <NombrePresidente>Jerry</NombrePresidente>
+                <ApellidosPresidente>Reinsdorf</ApellidosPresidente>
+            </Presidente>
+        </Equipo>
+        <Edad>35</Edad>
+    </Jugador>
+    <Jugador>
+        <Apellidos>Bryant</Apellidos>
+        <Equipo>
+            <Nombre>Lakers</Nombre>
+            <Ciudad>Los Angeles</Ciudad>
+            <Presidente>
+                <NombrePresidente>Jeanie</NombrePresidente>
+                <ApellidosPresidente>Buss</ApellidosPresidente>
+            </Presidente>
+        </Equipo>
+        <Edad>41</Edad>
+    </Jugador>
+</LigaBaloncesto>

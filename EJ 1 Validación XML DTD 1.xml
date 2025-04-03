@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE libro [
+ <!ELEMENT libro ( titulo, editorial, autor, numero_de_pagina)>
+ <!ELEMENT titulo (#PCDATA)>
+ <!ELEMENT editorial (#PCDATA)>
+ <!ELEMENT autor (nombre, apellidos)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT apellidos (#PCDATA)>
+ <!ELEMENT numero_de_paginas (#PCDATA)>
+ ]>
+
+
+
+  <libro>
+    <titulo>Cien años de soledad</titulo>
+    <editorial>Editorial Sudamericana</editorial>
+    <autor>
+      <nombre>Gabriel</nombre>
+      <apellidos>García Márquez</apellidos>
+    </autor>
+    <numero_de_paginas>471</numero_de_paginas>
+  </libro>
+
+  <libro>
+    <titulo>1984</titulo>
+    <editorial>Secker</editorial>
+    <autor>
+      <nombre>George</nombre>
+      <apellidos>Orwell</apellidos>
+    </autor>
+    <numero_de_paginas>328</numero_de_paginas>
+  </libro>
+
+  <libro>
+    <titulo>El principito</titulo>
+    <editorial>Reynal</editorial>
+    <autor>
+      <nombre>Antoine</nombre>
+      <apellidos>de Saint-Exupéry</apellidos>
+    </autor>
+    <numero_de_paginas>96</numero_de_paginas>
+  </libro>

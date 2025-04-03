@@ -1,0 +1,10 @@
+<!ELEMENT LigaBaloncesto (Jugador+)>
+<!ELEMENT Jugador (Apellidos, Equipo, Edad)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Equipo (Nombre, Ciudad, Presidente)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT Presidente (NombrePresidente, ApellidosPresidente)>
+<!ELEMENT NombrePresidente (#PCDATA)>
+<!ELEMENT ApellidosPresidente (#PCDATA)>
+<!ELEMENT Edad (#PCDATA)>
