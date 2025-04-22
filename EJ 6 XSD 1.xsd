@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="fichas.xsd">
+  <ficha>
+    <nombre>Ana Ric</nombre>
+    <iniciales>ARL</iniciales>
+    <iniciales-al-reves>LRA</iniciales-al-reves>
+    <edad>25</edad>
+  </ficha>
+  <ficha>
+    <nombre>Hub Ric</nombre>
+    <iniciales>BRL</iniciales>
+    <iniciales-al-reves>LRB</iniciales-al-reves>
+    <edad>30</edad>
+  </ficha>
+</fichas>
